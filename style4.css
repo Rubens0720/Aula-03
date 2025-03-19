@@ -1,0 +1,51 @@
+div#static{
+border: 1px solid red;
+height: 20px;
+width: 20px;
+
+}
+
+
+#segundoTitulo{
+border-bottom: 2px solid black;
+
+}
+
+.tituloCor {
+color: dodgerblue;
+
+}
+
+dev#Sticky{
+    position: sticky;
+    top: 0;
+    background-color: green;
+    height: 20px;
+        
+
+}
+
+div#pai{
+border: 1px solid red;
+height: 50px;
+width: 50px;
+position: relative;
+box-shadow: 10px 2px 2px rgba(0, 0, 0, 0.26);
+border-radius: 5px;
+
+}
+
+div#filho{
+border: 1px solid blue;
+height: 20px;
+width: 20px;
+position: absolute;
+right: 0;
+bottom: 0;
+display: none;
+
+}
+
+div#pai:hover div#filho{
+    display: block;
+}

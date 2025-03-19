@@ -1,0 +1,64 @@
+body{
+    background-color: dodgerblue;
+}
+
+#conteudo{
+    background-color: white;
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+#imagem{
+    
+    height: 200px;
+    background: url(imagens/pexels-nikolaos-dimou-1250289.jpg)no-repeat center center/cover;
+    margin: 30px;
+    border-radius: 18px;
+    width: 90%;
+    max-width: 1500px;
+
+    
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+p{
+    margin: 2%;
+}
+#legenda{
+    text-align: right;
+}
+.col30{
+
+width: 30%;
+
+
+}
+
+.col70{
+
+width: 70%;
+
+
+}
+
+.row{
+
+    display: flex;
+
+}
+
+input{
+    width: 100%;
+}
